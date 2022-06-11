@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lobster&display=swap');
+
+*{
+    margin: 0;padding: 0;
+}
+header{
+    background-color: black;
+    display: flex;
+}
+.logo img{
+    width: 125px;
+    padding: 3px;
+}
+
+nav ul li a{
+    color: cornsilk;
+    text-decoration: none;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Lobster', cursive;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-flex;
+    margin: 4vh 3vw;
+}
+.search{
+    margin: 4vh 1vw;
+}
+.search input{
+    padding: 0px 10px;
+}
+.text{
+    width: 30vw;
+    height: 3vh;
+    border-radius: 5px;
+}
+.btn{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: bold;
+}
+.container{
+   min-height: calc(100vh - 5vh - 8vh);
+   margin: auto;
+   width: 80vw;
+   padding: 10px 0px;
+}
+.card{
+    display: inline-flex;
+    margin: 0px 20px;
+    justify-content: center;
+}
+h2{
+    margin: 8px 0px;
+}
+footer{
+    height: 5vh;
+    background-color: black;
+    color: cornsilk;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Lobster', cursive;
+}
